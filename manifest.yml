@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nodered15feb2017
+  host: nodered15feb2017
+  disk_quota: 1024M
+  services:
+  - nodered15feb2017-cloudantNoSQLDB
+  - nodered15feb2017-iotf-service
